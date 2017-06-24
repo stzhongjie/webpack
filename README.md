@@ -15,8 +15,11 @@ webpack是基于node.js环境的前端自动化打包工具，本文默认你已
 首先新建一个练习文件夹demo，在文件中打开命令终端，输入下列指令即可安装webpack
 
 > //全局安装
+
 npm install -g webpack
+
 //安装到项目文件夹
+
 npm install --save-dev webpack
 
 安装完之后，demo里会多一个node_modules文件夹。
