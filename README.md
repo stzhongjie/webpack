@@ -806,12 +806,15 @@ Babel有不同的插件，可以按需安装：http://babeljs.io/docs/plugins/pr
 安装相关组件：
 
 >//安装加载器 babel-loader 和 Babel 的 API 代码 babel-core
+
 >npm install --save-dev babel-loader babel-core
 >
 >安装 ES2015（ES6）的代码，用于转码
+
 >npm install babel-preset-es2015 --save-dev
 >
 >//用于转换一些 ES6 的新 API，如 Generator，Promise 等
+
 >npm install --save babel-polyfill
 
 配置webpack.config.js：
