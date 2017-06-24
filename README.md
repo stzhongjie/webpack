@@ -918,7 +918,7 @@ entry入口那里增加了*babel-polyfill*，loader增加*babel-loader*。由于
 
 一：热加载那里，我发现假如引用的是css文件，修改内容热加载有效果，但引用scss文件热加载就失效了，如何让引用scss文件也能实现热加载呢？
 
-二：html-withimg-loader和raw-loader的区别是什么呢？网上的解释都说是对html解析成字符串，让js读懂。昕哥的文章里，热加载用的loader是raw-loader，但我发现用html-withimg-loader也能跑起来。
+二：html-withimg-loader和raw-loader的区别是什么呢？网上的解释都说是对html解析成字符串，让js读懂。网上有些的文章，热加载用的loader是raw-loader，但我发现用html-withimg-loader也能跑起来。
 
 
 
